@@ -1,0 +1,13 @@
+# Local secrets and temporary files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+# Keep actual private knowledge outside the publication repository
+private/
+local-knowledge/
