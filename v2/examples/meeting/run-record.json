@@ -1,0 +1,21 @@
+{
+  "instance_id": "DEMO-MEETING-20260924-001",
+  "task_id": "MEETING-ACTION",
+  "version": "2.0.0",
+  "fictional": true,
+  "status": "待驗收",
+  "current_step": "08",
+  "sources": [
+    "sources/2026-09-21.md",
+    "sources/2026-09-24.md"
+  ],
+  "result": "outputs/reference-result.md",
+  "handoff_owner": null,
+  "acceptance_evidence": null,
+  "business_tasks_closed": false,
+  "blockers": [
+    "未指定驗收人",
+    "業務成果連結未提供"
+  ],
+  "note": "示範紀錄；沒有真實派送或監控"
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "TASK-ID",
+  "version": "2.0.0",
+  "title": "待填任務名稱",
+  "goal": "待填目標",
+  "inputs": [],
+  "input_base": "本 VAC 檔案所在目錄",
+  "output_directory": "由使用者指定；不可覆寫參考答案",
+  "permissions": {
+    "read": "僅本次指定來源",
+    "write": "僅指定新產出目錄",
+    "external_send": false,
+    "delete_sources": false
+  },
+  "steps": [],
+  "source_rules": [
+    "待填來源權威與引用規則"
+  ],
+  "required_outputs": [],
+  "acceptance": [],
+  "max_revision_attempts": 2,
+  "stop_conditions": [
+    "缺少必要權限",
+    "來源不可讀",
+    "版本不一致",
+    "修正次數用盡"
+  ],
+  "follow_up": "未連接追蹤服務時只保存待追蹤事項，不宣稱持續監控",
+  "human_review": "驗收人未指定時標示待確認",
+  "brand": "AI Coach 益力康陳董 | 2026 AI to Agent"
+}
